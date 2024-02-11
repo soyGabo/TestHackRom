@@ -49,6 +49,7 @@ InsideOfTruck_EventScript_SetIntroFlagsFemale::
 
 InsideOfTruck_EventScript_MovingBox::
 	msgbox InsideOfTruck_Text_BoxPrintedWithMonLogo, MSGBOX_SIGN
+	setflag FLAG_SYS_QUEST_MENU_GET
 	end
 
 InsideOfTruck_Text_BoxPrintedWithMonLogo:
