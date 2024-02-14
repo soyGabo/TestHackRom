@@ -397,7 +397,10 @@ LittlerootTown_EventScript_TownSign::
 	end
 
 LittlerootTown_EventScript_BirchsLabSign::
+	setvar VAR_0x8000, MUGSHOT_TITLE
+	callnative DrawMugshot
 	msgbox LittlerootTown_Text_ProfBirchsLab, MSGBOX_SIGN
+	callnative ClearMugshot
 	end
 
 LittlerootTown_EventScript_BrendansHouseSign::
