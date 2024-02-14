@@ -26,7 +26,7 @@ static const u16 sMugshotPal_Title[] = INCBIN_U16("graphics/mugshots/title_test.
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
-    [MUGSHOT_TITLE] = {.x = 16, .y = 5, .width = 80, .height = 72, .image = sMugshotImg_Title, .palette = sMugshotPal_Title},
+    [MUGSHOT_TITLE] = {.x = 0, .y = 0, .width = 168, .height = 64, .image = sMugshotImg_Title, .palette = sMugshotPal_Title},
 
 };
 
